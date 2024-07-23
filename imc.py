@@ -4,6 +4,8 @@ altura = float(input('Ingrese altura en metros (m): '))
 
 #formula
 imc = peso/(altura**2)
+#redondeo
+imc = round(imc,2)
 
 #condiciones
 if imc<18.5:
